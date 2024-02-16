@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Nebula Nitro",
+        "description": "A blend of star-dusted espresso infused with cosmic cream, served chilled with a touch of intergalactic sparkle.",
+        "price_Zeni": 7.2,
+        "image": "drink1.jpg"
+    },
+    {
+        "name": "Quantum Quencher",
+        "description": "A concoction of ethereal espresso, quantum foam froth, and dark matter drizzle, promising a taste beyond dimensions.",
+        "price_Zeni": 8,
+        "image": "drink2.jpg"
+    },
+    {
+        "name": "Celestial Chai",
+        "description": "A harmonious blend of exotic spices from across the universe, brewed with stardust-infused tea leaves for an otherworldly flavor.",
+        "price_Zeni": 5.7,
+        "image": "drink3.jpg"
+    },
+    {
+        "name": "Aurora Affogato",
+        "description": "A heavenly dessert beverage featuring a scoop of frozen moonbeam gelato drowned in a shot of pulsar-powered espresso.",
+        "price_Zeni": 9,
+        "image": "drink4.jpg"
+    },
+    {
+        "name": "Solar Flare Macchiato",
+        "description": "A fiery creation of espresso with a splash of solar flare syrup, topped with a cloud of solar prominence foam.",
+        "price_Zeni": 6.2,
+        "image": "drink5.jpg"
+    },
+    {
+        "name": "Milky Way Mocha",
+        "description": "A rich and indulgent blend of dark matter-infused cocoa, espresso, and cosmic cream, sprinkled with asteroid chocolate shavings.",
+        "price_Zeni": 7.5,
+        "image": "drink6.jpg"
+    },
+    {
+        "name": "Cosmic Caramel Latte",
+        "description": "A smooth and sweet fusion of caramel nebula syrup, espresso, and steamed stellar milk, topped with a caramel galaxy swirl.",
+        "price_Zeni": 7,
+        "image": "drink7.jpg"
+    },
+    {
+        "name": "Galactic Glitter Frappuccino",
+        "description": "A dazzling blend of icy star crystals, espresso, and shimmering stardust, blended to perfection for a refreshing cosmic treat.",
+        "price_Zeni": 10.5,
+        "image": "drink8.jpg"
+    },
+    {
+        "name": "Andromeda Almond Latte",
+        "description": "A nutty delight featuring almond nebula syrup, espresso, and steamed milk from the celestial herds of Andromeda.",
+        "price_Zeni": 6.5,
+        "image": "drink9.jpg"
+    },
+    {
+        "name": "Space-Time Siphon",
+        "description": "A mind-bending brew crafted with quantum espresso, interdimensional cream, and a dash of temporal syrup, promising a taste of eternity.",
+        "price_Zeni": 8.5,
+        "image": "drink10.jpg"
+    },
+    {
+        "name": "Nebular Nitro Cold Brew",
+        "description": "A smooth and electrifying blend of cold-brewed dark matter coffee infused with nitrogen, guaranteed to send tingles down your tentacles.",
+        "price_Zeni": 8,
+        "image": "drink11.jpg"
+    },
+    {
+        "name": "Supernova Sipper",
+        "description": "A burst of flavor awaits in this explosive concoction of espresso, cosmic caramel, and whipped cream, topped with a sprinkle of supernova dust.",
+        "price_Zeni": 9.5,
+        "image": "drink12.jpg"
+    },
+    {
+        "name": "Pulsar Punch",
+        "description": "A vibrant and fruity blend of pulsar-powered espresso, cosmic fruit juices, and a splash of asteroid ice, perfect for refreshing travels through the cosmos.",
+        "price_Zeni": 7.2,
+        "image": "drink13.jpg"
+    },
+    {
+        "name": "Gravity Grind",
+        "description": "An intense brew featuring dark matter espresso and gravitational whipped cream, promising a taste sensation that pulls you in.",
+        "price_Zeni": 8,
+        "image": "drink14.jpg"
+    },
+    {
+        "name": "Exoplanet Espresso",
+        "description": "A bold and adventurous espresso shot sourced from the rarest beans harvested from distant exoplanets, delivering a taste of the unknown.",
+        "price_Zeni": 9,
+        "image": "drink15.jpg"
+    },
+    {
+        "name": "Orbiting Oolong",
+        "description": "An exotic blend of oolong tea infused with moonbeam essence and cosmic spices, promising a tranquil journey through the celestial spheres.",
+        "price_Zeni": 6.2,
+        "image": "drink16.jpg"
+    },
+    {
+        "name": "Stellar Spice Latte",
+        "description": "A warm and comforting concoction of spice-infused espresso, interstellar milk, and a sprinkle of asteroid cinnamon, perfect for cozying up on cold space nights.",
+        "price_Zeni": 7.5,
+        "image": "drink17.jpg"
+    },
+    {
+        "name": "Galactic Gingerbread Mocha",
+        "description": "A festive blend of gingerbread syrup, cocoa from the far reaches of the galaxy, espresso, and frothy star milk, topped with a sprinkle of ginger asteroid crumbs.",
+        "price_Zeni": 7,
+        "image": "drink18.jpg"
+    },
+    {
+        "name": "Comet Caramel Macchiato",
+        "description": "A heavenly blend of espresso, caramel comet drizzle, and a hint of cosmic vanilla, adorned with a shooting star of caramel.",
+        "price_Zeni": 8.5,
+        "image": "drink19.jpg"
+    },
+    {
+        "name": "Cosmos Cocoa",
+        "description": "A velvety smooth cocoa blend infused with starlight and cosmic marshmallows, perfect for a cozy evening under the interstellar skies.",
+        "price_Zeni": 5.5,
+        "image": "drink20.jpg"
+    }
+]

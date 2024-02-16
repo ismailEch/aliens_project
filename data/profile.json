@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Xenon",
+        "planet": "Alpha Centauri",
+        "species": "Xenon",
+        "age": 243,
+        "gender": "Hermaphrodite",
+        "contactInformation": "xenon243@alphacentauri.com",
+        "preferredLanguage": "Xenoglyph"
+    },
+    {
+        "id": 2,
+        "name": "Zetan",
+        "planet": "Zeta Reticuli",
+        "species": "Zetan",
+        "age": 175,
+        "gender": "Male",
+        "ContactInformation": "zetan175@zetareticuli.net",
+        "preferredLanguage": "Zetanese"
+    },
+    {
+        "id": 3,
+        "name": "Sirian",
+        "planet": "Sirius",
+        "species": "Sirian",
+        "age": 512,
+        "gender": "Female",
+        "ContactInformation": "sirian512@sirius.org",
+        "preferredLanguage": "Sirian Galactic"
+    },
+    {
+        "id": 4,
+        "name": "Proximan",
+        "planet": "Proxima Centauri",
+        "species": "Proximan",
+        "age": 88,
+        "gender": "Female",
+        "contactInformation": "proximan88@proximacentauri.io",
+        "preferredLanguage": "Proximan Dialect"
+    },
+    {
+        "id": 5,
+        "name": "Betelgeusian",
+        "planet": "Betelgeuse",
+        "species": "Betelgeusian",
+        "age": 421,
+        "gender": "Male",
+        "contactInformation": "betelgeusian421@betelgeuse.com",
+        "preferredLanguage": "Betelgeusian Tongue"
+    },
+    {
+        "id": 6,
+        "name": "Yassin",
+        "age": "374",
+        "planet": "Mars",
+        "species": "No-binary",
+        "preferredLanguage": "arabic",
+        "gender": "Male",
+        "contactInformation": "exmples@gmail.com"
+    },
+    {
+        "id": 7,
+        "name": "Zakaria",
+        "age": "374",
+        "planet": "Mars",
+        "species": "No",
+        "preferredLanguage": "arabic",
+        "gender": "Male",
+        "contactInformation": "exmples@gmail.com"
+    },
+    {
+        "name": "Wendy's",
+        "age": "45",
+        "planet": "Earth",
+        "species": "No-banry",
+        "preferredLanguage": "Blaton",
+        "gender": "Male",
+        "contactInformation": "exmples@gmail.com",
+        "id": 8
+    },
+    {
+        "name": "cash",
+        "age": "374",
+        "planet": "Mars",
+        "species": "No-banry",
+        "preferredLanguage": "Barber",
+        "gender": "Male",
+        "contactInformation": "exmples@gmail.com",
+        "id": 9
+    }
+]

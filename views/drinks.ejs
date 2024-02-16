@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet" /> -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            width:750px;
+            margin-top: 340px;
+        }
+
+        .div-tem3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Change from space-around to space-between */
+    margin: 20px;
+}
+
+.card {
+    width: calc(50% - 20px); /* Adjust width to occupy 50% of the container minus margin */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .info {
+            padding: 10px;
+        }
+
+        .info h1 {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .info p {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        /* Additional style */
+        .hero_area {
+            height: 100vh;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero_area">
+        <!-- header section starts -->
+        <header class="header_section">
+            <header class="header_section">
+                <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a class="navbar-brand" href="index.html">
+                    <img src="/images/logo.png" alt="" />
+                    <span>
+                        Nova
+                    </span>
+                    </a>
+    
+                    <div class="navbar-collapse" id="">
+                        <div class="custom_menu-btn">
+                            <button onclick="openNav()">
+                            <span class="s-1"> </span>
+                            <span class="s-2"> </span>
+                            <span class="s-3"> </span>
+                            </button>
+                        </div>
+                        <div id="myNav" class="overlay">
+                            <div class="overlay-content">
+                                <a href="http://localhost:8080/aliens/start">HOME</a>
+                                <a href="http://localhost:8080/aliens/addNewUser">Create Profile</a>
+                                <a href="http://localhost:8080/reservation/addNewReservation">Get A Reservation</a>
+                                <a href="http://localhost:8080/aliens/list">Aliens List</a>
+                                <a href="http://localhost:8080/drinks/list">Our Drink</a>
+                                <a href="http://localhost:8080/reservation/list">Reservation List</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                </div>
+            </header>
+        </header>
+        <!-- slider section -->
+        <section class="slider_section position-relative">
+            <div class="container-fluid">
+                <!-- <form style="margin-top: 125px;" action=""> -->
+                    <div class="container">
+                        <div class="div-tem3">
+                            <% drinks.forEach(item => { %>
+                                <div class="card">
+                                    <img src="/images/<%= item.image %>" alt="<%= item.name %>">
+                                    <div class="info">
+                                        <h3><%= item.name %></h3>
+                                        <p>Price: <%= item.price_Zeni %> Zeni</p>
+                                    </div>
+                                </div>
+                            <% }); %>   
+                        </div>
+                    </div>
+                <!-- </form> -->
+            </div>
+        </section>
+        <!-- end slider section -->
+    </div>
+
+    <!-- Your scripts -->
+    <script type="text/javascript" src="/js/jq.min.js"></script>
+    <script type="text/javascript" src="/js/bo.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <script>
+        function openNav() {
+            document.getElementById("myNav").classList.toggle("menu_width");
+            document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style");
+        }
+    </script>
+
+    <!-- owl carousel script -->
+    <script type="text/javascript">
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 35,
+            navText: [],
+            autoplay: true,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+    <!-- end owl carousel script -->
+</body>
+</html>
